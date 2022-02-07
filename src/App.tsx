@@ -7,8 +7,8 @@ import GoalList from './components/GoalList/GoalList';
 function App() {
 
   const [goals, setGoals] = useState([
-    { id: v1(), goal: "finish the course" },
-    { id: v1(), goal: "create profile" }
+    { id: v1(), goal: "read a book" },
+    { id: v1(), goal: "create new app" }
   ])
 
   function saveNewGoal(newGoal: string) {
